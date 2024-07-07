@@ -22,4 +22,6 @@ function destructivelyDeleteFromEmployeeByKey(employee, key){
     delete employee[key]
     return employee;
 }
-console.log ; employee['Sam'];
+employee = ['Sam'];
+updateEmployeeWithKeyAndValue(employee, streetAddress, '11 Broadway');
+destructivelyUpdateEmployeeWithKeyAndValue(employee, streetAddress, '12 Broadway');
